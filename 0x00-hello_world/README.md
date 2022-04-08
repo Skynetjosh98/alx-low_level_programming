@@ -1,1 +1,1 @@
-using the printf functioin
+script for 6th question
