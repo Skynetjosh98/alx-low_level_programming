@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all base 10 single digit numbers 
- * starting from 0, followed by a new line
+ * main - prints all single digit numbers of base
+ * 10 starting from 0, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -11,6 +11,6 @@ int main(void)
 
 	for (num = 0; num < 10; num++)
 		printf("%d", num);
-	printf("\n");
+	printf("\n")
 	return (0);
 }
