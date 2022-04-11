@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - prints all the numbers of base 16,
+ * main - prints all the numbers of base 16 in lowercase,
  * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num_hex;
-	char alp_hex;
+	int n;
+	char ch;
 
-	for (num_hex = 48; num_hex < 58; num_hex++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(num_hex);
+		putchar(n);
 	}
-	for (alp_hex = 'a'; alp_hex <= 'f'; alph_hex++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(alp_hex);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
