@@ -6,20 +6,20 @@
  */
 int main(void)
 {
-	int num1, num2, l;
+	int n, m, l;
 
-	for (num1 = 48; num1 < 58; num1++)
+	for (n = 48; n < 58; n++)
 	{
-		for (num2 = 49; num2 < 58; num2++)
+		for (m = 49; m < 58; m++)
 		{
 			for (l = 50; l < 58; l++)
 			{
-				if (l > num2 && num22 > num1)
+				if (l > m && m > n)
 				{
-					putchar(num1);
-					putchar(num2);
+					putchar(n);
+					putchar(m);
 					putchar(l);
-					if (num1 != 55 || num2 != 56)
+					if (n != 55 || m != 56)
 					{
 						putchar(',');
 						putchar(' ');
