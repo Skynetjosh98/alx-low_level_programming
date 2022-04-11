@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (l = 50; l < 58; l++)
 			{
-				if (l > num2 && nu2m > num1)
+				if (l > num2 && num22 > num1)
 				{
 					putchar(num1);
 					putchar(num2);
