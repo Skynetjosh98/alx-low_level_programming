@@ -2,15 +2,15 @@
 
 /**
  * add - adds two integers and returns the result
- * @num1: int to be added to num2
- * @num1: int to be added to mum1
- * Return: sum of num1 and num2
+ * @a: int to be added to b
+ * @b: int to be added to a
+ * Return: sum of a and b
  */
-int add(int num1, int num2)
+int add(int a, int b)
 {
-	int sum;
+	int c;
 
-	sum = num1 + num2;
+	c = a + b;
 
-	return (sum);
+	return (c);
 }
