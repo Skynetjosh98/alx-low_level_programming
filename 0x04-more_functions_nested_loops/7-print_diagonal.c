@@ -13,6 +13,7 @@ void print_diagonal(int n)
 	{
 		int a = 0;
 		int count = a;
+		int b;
 
 		while (a < n)
 		{
